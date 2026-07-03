@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Streamly — Watch Anywhere</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-left">
+      <a href="#" class="logo">
+        <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+          <path d="M4 22C10 28 24 28 30 22" stroke="#00A8E1" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="17" cy="12" r="7" fill="#00A8E1"/>
+        </svg>
+        <span>streamly</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#" class="active">Home</a>
+        <a href="#">Movies</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Sports</a>
+        <a href="#">My Stuff</a>
+        <a href="#">Categories ▾</a>
+      </nav>
+    </div>
+    <div class="nav-right">
+      <button class="icon-btn" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <a href="#" class="watchlist-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+        Watchlist
+      </a>
+      <div class="profile-badge" aria-label="Profile">R</div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero-slides" id="heroSlides"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow" id="heroEyebrow">Included with your membership</p>
+      <h1 class="hero-title" id="heroTitle">The Last Signal</h1>
+      <p class="hero-meta" id="heroMeta">2026 · Sci-Fi Thriller · Season 1</p>
+      <p class="hero-desc" id="heroDesc">
+        When a decades-old deep-space transmission finally reaches Earth, a
+        skeleton research crew must decide whether to answer it — before
+        something else does.
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          Play
+        </button>
+        <button class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          More Info
+        </button>
+        <button class="btn btn-icon-only" aria-label="Add to Watchlist">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="hero-dots" id="heroDots"></div>
+    <div class="hero-fade"></div>
+  </section>
+
+  <!-- ===================== ROWS ===================== -->
+  <main class="content">
+    <div id="rowsContainer"></div>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Get to Know Us</h4>
+        <a href="#">About Streamly</a>
+        <a href="#">Careers</a>
+        <a href="#">Press Room</a>
+        <a href="#">Investor Relations</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect with Us</h4>
+        <a href="#">Facebook</a>
+        <a href="#">X / Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+      <div class="footer-col">
+        <h4>Make Money with Us</h4>
+        <a href="#">Sell content</a>
+        <a href="#">Become an affiliate</a>
+        <a href="#">Advertise your products</a>
+      </div>
+      <div class="footer-col">
+        <h4>Let Us Help You</h4>
+        <a href="#">Your account</a>
+        <a href="#">Help & support</a>
+        <a href="#">Devices</a>
+        <a href="#">Redeem a gift card</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-logo">
+        <svg width="26" height="26" viewBox="0 0 34 34" fill="none">
+          <path d="M4 22C10 28 24 28 30 22" stroke="#00A8E1" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="17" cy="12" r="7" fill="#00A8E1"/>
+        </svg>
+        <span>streamly</span>
+      </div>
+      <p>This is a static UI clone built for learning purposes only. Not affiliated with any real streaming service. All titles, artwork, and copy are fictional placeholders.</p>
+      <p class="copyright">© 2026 Streamly Demo Project</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
